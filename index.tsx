@@ -58,7 +58,7 @@ import {
 import React, { FC, isValidElement } from "react";
 import { Loader } from "@retap/components";
 
-export const RetapToolbar: FC<RetapToolbarProps & FlexProps> = ({
+export const RetapToolbar: FC<RetapToolbarProps & FlexProps & WithEditor> = ({
   editor,
   buttons,
   buttonProps,
@@ -127,7 +127,7 @@ const RenderButtons: FC<
 };
 
 const RenderButton: FC<
-  Pick<RetapToolbarProps, "buttonProps" | "editor"> & { button: ButtonList }
+  Pick<RetapToolbarProps, "buttonProps"> & WithEditor & { button: ButtonList }
 > = ({ editor, button, buttonProps }) => {
   switch (button) {
     case "bold":
