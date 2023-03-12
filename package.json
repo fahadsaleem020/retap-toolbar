@@ -1,12 +1,12 @@
 {
-  "name": "@retap/toolbar",
+  "name": "@chakra-editor/toolbar",
   "version": "0.0.0-development",
   "type": "module",
   "license": "MIT",
   "author": "fahadsaleem",
-  "description": "retap editor toolbar",
+  "description": "chakra editor toolbar",
   "keywords": [
-    "@retap/toolbar",
+    "@chakra-editor/toolbar",
     "tiptap"
   ],
   "files": [
@@ -21,17 +21,17 @@
     "commit": "cz"
   },
   "peerDependencies": {
+    "@chakra-editor/buttons": "^1.0.3",
+    "@chakra-editor/components": "^1.0.8",
+    "@chakra-editor/types": "^1.0.14",
     "@chakra-ui/react": "^2.4.9",
-    "@retap/buttons": "^1.0.1",
-    "@retap/components": "^1.0.5",
-    "@retap/types": "^1.0.10",
     "react": "^18.2.0"
   },
   "devDependencies": {
+    "@chakra-editor/buttons": "^1.0.3",
+    "@chakra-editor/components": "^1.0.8",
+    "@chakra-editor/types": "^1.0.14",
     "@chakra-ui/react": "^2.4.9",
-    "@retap/buttons": "^1.0.1",
-    "@retap/components": "^1.0.5",
-    "@retap/types": "^1.0.10",
     "@rollup/plugin-terser": "^0.4.0",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
@@ -39,7 +39,6 @@
     "cz-conventional-changelog": "^3.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
     "rollup": "^3.12.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-node-externals": "^5.1.2",
@@ -65,6 +64,6 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fahadsaleem020/retap-toolbar.git"
+    "url": "https://github.com/fahadsaleem020/chakra-editor-toolbar.git"
   }
 }

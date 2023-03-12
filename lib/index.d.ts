@@ -1,4 +1,4 @@
 import { FlexProps } from "@chakra-ui/react";
-import { WithEditor, RetapToolbarProps } from "@retap/types";
+import { WithEditor, ToolbarProps } from "@chakra-editor/types";
 import { FC } from "react";
-export declare const RetapToolbar: FC<RetapToolbarProps & FlexProps & WithEditor>;
+export declare const Toolbar: FC<ToolbarProps & FlexProps & WithEditor>;

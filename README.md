@@ -1,1 +1,1 @@
-# retap editor toolbar
+# chakra editor toolbar

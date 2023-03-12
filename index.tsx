@@ -47,18 +47,18 @@ import {
   IncreaseIndentButton,
   DecreaseIndentButton,
   VideoButton,
-} from "@retap/buttons";
+} from "@chakra-editor/buttons";
 import {
   WithEditor,
-  RetapToolbarProps,
+  ToolbarProps,
   ButtonList,
   ButtonNodes,
   Buttons,
-} from "@retap/types";
+} from "@chakra-editor/types";
 import React, { FC, isValidElement } from "react";
-import { Loader } from "@retap/components";
+import { Loader } from "@chakra-editor/components";
 
-export const RetapToolbar: FC<RetapToolbarProps & FlexProps & WithEditor> = ({
+export const Toolbar: FC<ToolbarProps & FlexProps & WithEditor> = ({
   editor,
   buttons,
   buttonProps,
@@ -127,7 +127,7 @@ const RenderButtons: FC<
 };
 
 const RenderButton: FC<
-  Pick<RetapToolbarProps, "buttonProps"> & WithEditor & { button: ButtonList }
+  Pick<ToolbarProps, "buttonProps"> & WithEditor & { button: ButtonList }
 > = ({ editor, button, buttonProps }) => {
   switch (button) {
     case "bold":
